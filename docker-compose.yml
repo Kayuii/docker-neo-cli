@@ -1,7 +1,7 @@
 version: '3'
 services:
   neo-cli:
-    image: kizzx2/neo-cli
+    image: kayuii/neo-cli
     tty: true
     volumes: ["./Chain:/neo-cli/Chain"]
     ports: ["10332:10332"]

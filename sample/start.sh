@@ -10,4 +10,4 @@ docker run --name neo-cli-test -it \
     -v $PWD/Chain:/neo-cli/Chain \
     -v $PWD/ApplicationLog:/neo-cli/ApplicationLog \
     -v $PWD/config/config.json:/neo-cli/config.json \
-    goreng/neo-cli:testnet
+    kayuii/neo-cli:testnet
